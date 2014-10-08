@@ -1,8 +1,12 @@
-# Casper
+# ![Orbs](http://img.dafont.com/preview.php?text=Orbs&ttf=squared_display0&ext=1&size=64&psize=m&y=53)
 
-The default theme for [Ghost](http://github.com/tryghost/ghost/).
+A hacked version of the default theme for [Ghost](http://github.com/tryghost/ghost/).
 
-To download, visit the [releases](https://github.com/TryGhost/Casper/releases) page.
+##Features
+* Code highlighting via PRISMJS.
+* Comments using Disqus.
+* Configurable responsive navigational sidebar.
+* Extra Icons
 
 ## Copyright & License
 

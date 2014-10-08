@@ -5,16 +5,20 @@
 
 {{! Everything inside the #post tags pulls data from the post }}
 {{#post}}
-
+{{!--
 <header class="main-header post-head {{#if image}}" style="background-image: url({{image}}){{else}}no-cover{{/if}}">
     <nav class="main-nav {{#if image}}overlay{{/if}} clearfix">
         <a class="back-button icon-arrow-left" href="{{@blog.url}}">Home</a>
         <a class="subscribe-button icon-feed" href="{{@blog.url}}/rss/">Subscribe</a>
     </nav>
 </header>
+--}}
+
+{{#if image}}
+<div class="main-header post-head" style="background-image: url({{image}})"></div>
+{{/if}}
 
 <main class="content" role="main">
-
     <article class="{{post_class}}">
 
         <header class="post-header">
@@ -74,7 +78,10 @@
         </footer>
 
     </article>
-
+    
+    {{! The tag below includes disqus - partials/disqus.hbs }}
+    {{> "disqus"}}
+    
 </main>
 
 {{/post}}

@@ -1,0 +1,18 @@
+{{! Navigational Sidebar}}
+<header id="orbs-bar" class="sidebar {{#is 'index, author, tag'}}wide" style="background-image: url({{#if author}}{{author.cover}}{{else}}{{@blog.cover}}{{/if}}){{else}}no-cover{{/is}}">
+
+    <nav id="site-head">
+        {{! Logo Orb}}        
+        <div id="site-head-logo">
+            <a id="blog-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="{{@blog.title}}"></a>
+        </div>
+
+        {{! Link Orbs}}
+        <div class="blog-links">
+            <a class="icon-github" href="{{@blog.url}}/projects/" title="Projects"></a>
+            <a class="icon-profile" href="{{@blog.url}}/cv/" title="Curriculum Vitae"></a>
+            <a class="icon-book" href="{{@blog.url}}/notes/" title="Notes"></a>
+            <a class="icon-feed" href="{{@blog.url}}{{#if tag}}/tag/{{tag.slug}}/{{else}}{{#if author}}{{#author}}{{url}}{{/author}}{{else}}/{{/if}}{{/if}}rss/" target="_blank" title="Subscribe{{#if tag}} to &quot;{{tag.name}}&quot;{{else}}{{#if author}}{{#author}} to {{name}}{{/author}}{{/if}}{{/if}}"></a>
+        </div>
+    </nav>
+</header>
