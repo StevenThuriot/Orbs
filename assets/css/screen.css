@@ -1018,6 +1018,36 @@ body:not(.post-template) .post-title {
     color: #50585D;
 }
 
+.post-footer.with-cover {
+	margin: 2.2rem 0;
+	padding: 50px 2rem 3rem 2rem;
+	background-position: center center;
+	background-size: cover;
+    border-radius: 2px;
+    color: #F8F8FF;
+}
+
+.post-footer.with-cover .author-image {
+    position: relative;
+    top: -32px;
+    left: 0.8em;
+    margin-left: 0;
+    float: left;
+}
+
+.post-footer.with-cover a {
+    color: #F8F8FF;
+}
+
+.post-footer.with-cover a:hover {
+    color: #b2b2b7;
+}
+
+.post-footer.with-cover h4 a {
+    color: #F8F8FF;
+}
+
+
 /* The subscribe icon on the footer */
 .subscribe {
     width: 28px;

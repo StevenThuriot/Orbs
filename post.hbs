@@ -32,10 +32,10 @@
             {{content}}
         </section>
 
-        <footer class="post-footer">
+    {{! Everything inside the #author tags pulls data from the author }}
+    {{#author}}
 
-        {{! Everything inside the #author tags pulls data from the author }}
-        {{#author}}
+        <footer class="post-footer{{#if cover}} with-cover" style="background-image: url({{cover}}){{/if}}">
 
             {{#if image}}
             <figure class="author-image">
@@ -57,8 +57,9 @@
                 </div>
             </section>
 
-        {{/author}}
+    {{/author}}
 
+            {{!-- Most ad blockers hide these anyway.
             <section class="share">
                 <h4>Share this post</h4>
                 <a class="icon-twitter" href="https://twitter.com/share?text={{encode title}}&amp;url={{url absolute="true"}}"
@@ -74,7 +75,7 @@
                     <span class="hidden">Google+</span>
                 </a>
             </section>
-
+            --}}
         </footer>
 
     </article>
