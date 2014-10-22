@@ -1455,6 +1455,7 @@ body:not(.post-template) .post-title {
     top: -22px;
     left: 0.8em;
     margin-left: 0;
+	padding: 3px;
     float: left;
 }
 
@@ -1624,8 +1625,7 @@ body:not(.post-template) .post-title {
     height: 80px;
     border-radius: 100%;
     overflow: hidden;
-    /*padding: 6px;*/
-    padding: 3px;
+    padding: 6px;
     background: #fff;
     z-index: 2;
     box-shadow: #E7EEF2 0 0 0 1px;
