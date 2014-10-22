@@ -825,7 +825,7 @@ margin on the iframe, cause it breaks stuff. */
 .inner {
     position: relative;
     width: 80%;
-    //max-width: 710px;
+    /*max-width: 710px;*/
     max-width: 900px;
     margin: 0 auto;
 }
@@ -1049,7 +1049,7 @@ margin on the iframe, cause it breaks stuff. */
     font-weight: 400;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 0.01rem;
-    //color: rgba(255,255,255,0.8);
+    /*color: rgba(255,255,255,0.8);*/
     color: #3A4145;
 }
 
@@ -1091,7 +1091,7 @@ margin on the iframe, cause it breaks stuff. */
 .post {
     position: relative;
     width: 80%;
-    //max-width: 710px;
+    /*max-width: 710px;*/
     max-width: 900px;
     margin: 4rem auto;
     padding-bottom: 4rem;
@@ -1223,7 +1223,7 @@ body:not(.post-template) .post-title {
 }
 
 .content {  
-    //padding: 1.2em 5% 0 15%; 
+    /*padding: 1.2em 5% 0 15%; */
     padding: 2em 5% 0 15%; 
     overflow: hidden;
 }
@@ -1453,10 +1453,14 @@ body:not(.post-template) .post-title {
 
 .post-footer.with-cover .author-image {
     position: relative;
-    top: -32px;
+    top: -22px;
     left: 0.8em;
     margin-left: 0;
     float: left;
+}
+
+.post-footer.with-cover .author-meta {
+	margin: 1rem 0;
 }
 
 .post-footer.with-cover a {
@@ -1621,7 +1625,8 @@ body:not(.post-template) .post-title {
     height: 80px;
     border-radius: 100%;
     overflow: hidden;
-    padding: 6px;
+    /*padding: 6px;*/
+    padding: 3px;
     background: #fff;
     z-index: 2;
     box-shadow: #E7EEF2 0 0 0 1px;
@@ -1644,7 +1649,7 @@ body:not(.post-template) .post-title {
     width: 120px;
     height: 120px;
     padding: 3px;
-    //margin: -100px auto 0 auto;
+    /*margin: -100px auto 0 auto;*/
     margin: 2em auto 0 auto;
     box-shadow: none;
 }
@@ -1713,7 +1718,7 @@ body:not(.post-template) .post-title {
 .pagination {
     position: relative;
     width: 80%;
-    //max-width: 710px;
+    /*max-width: 710px;*/
     max-width: 900px;
     margin: 4rem auto;
     font-family: 'Lora', serif;
@@ -1800,7 +1805,7 @@ body:not(.post-template) .post-title {
 
 .site-footer {
     position: relative;
-    //margin: 8rem 0 0 0;
+    /*margin: 8rem 0 0 0;*/
     margin: 8rem 3% 0 38%;
     padding: 0.5rem 15px;
     border-top: #EBF2F6 1px solid;
@@ -1833,8 +1838,8 @@ body:not(.post-template) .post-title {
 
 .copyright {
     display: block;
-    //width: 45%;
-    //float: left;
+    /*width: 45%;*/
+    /*float: left;*/
     float: right;
 }
 
