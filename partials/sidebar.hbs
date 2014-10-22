@@ -9,9 +9,9 @@
 
         {{! Link Orbs}}
         <div class="blog-links">
-            <a class="icon-github" href="{{@blog.url}}/projects/" title="Projects"></a>
-            <a class="icon-profile" href="{{@blog.url}}/cv/" title="Curriculum Vitae"></a>
-            <a class="icon-book" href="{{@blog.url}}/notes/" title="Notes"></a>
+            <a class="icon-hub" href="{{@blog.url}}/projects/" title="Projects"></a>
+            <a class="icon-user" href="{{@blog.url}}/cv/" title="Curriculum Vitae"></a>
+            <a class="icon-file" href="{{@blog.url}}/notes/" title="Notes"></a>
             <a class="icon-feed" href="{{@blog.url}}{{#if tag}}/tag/{{tag.slug}}/{{else}}{{#if author}}{{#author}}{{url}}{{/author}}{{else}}/{{/if}}{{/if}}rss/" target="_blank" title="Subscribe{{#if tag}} to &quot;{{tag.name}}&quot;{{else}}{{#if author}}{{#author}} to {{name}}{{/author}}{{/if}}{{/if}}"></a>
         </div>
     </nav>

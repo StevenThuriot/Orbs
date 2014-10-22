@@ -513,17 +513,16 @@ th {
 .icon-link:before {
     content: "\f608";
 }
-.icon-book:before {
-    content: "\f608";
+
+
+.icon-file:before {
+	content: "\e600";
 }
-.icon-book:before {
-	content: "\f609";
+.icon-hub:before {
+	content: "\e602";
 }
-.icon-profile:before {
-	content: "\f610";
-}
-.icon-github:before {
-	content: "\f611";
+.icon-user:before {
+	content: "\e601";
 }
 
 
