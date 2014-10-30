@@ -31,7 +31,7 @@
     {{! Everything else gets inserted here }}
     {{{body}}}
 
-    <footer class="site-footer clearfix{{#is 'post'}} wide{{/is}}">
+    <footer class="site-footer clearfix{{#is 'post, page'}} wide{{/is}}">
          <section class="copyright"><a href="{{@blog.url}}">{{@blog.title}}</a> &copy; {{date format="YYYY"}}</section>
     </footer>
 
