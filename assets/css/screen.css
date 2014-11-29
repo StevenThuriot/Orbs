@@ -1705,8 +1705,14 @@ body:not(.post-template) .post-title {
     font-size: 1.1rem;
 }
 
+/* Disqus */
 #disqus_thread {
     padding: 15px 25px;   
+}
+
+/* Pastebin */
+.content .embedPastebin {
+    margin-bottom: 1.75em;
 }
 
 /* ==========================================================================
