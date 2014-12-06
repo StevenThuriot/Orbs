@@ -1450,6 +1450,10 @@ body:not(.post-template) .post-title {
     color: #F8F8FF;
 }
 
+.post-footer.with-cover .author {
+    width: 100%;
+}
+
 .post-footer.with-cover .author-image {
     position: relative;
     top: -22px;
@@ -1459,8 +1463,9 @@ body:not(.post-template) .post-title {
     float: left;
 }
 
-.post-footer.with-cover .author-meta {
-	margin: 1rem 0;
+.post-footer.with-cover p, .post-footer.with-cover .author-meta {
+	margin: 1rem 120px 1rem 0;
+    width: 100%;
 }
 
 .post-footer.with-cover a {
