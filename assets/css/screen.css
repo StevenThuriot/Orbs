@@ -518,11 +518,14 @@ th {
 .icon-file:before {
 	content: "\e600";
 }
+.icon-user:before {
+	content: "\e601";
+}
 .icon-hub:before {
 	content: "\e602";
 }
-.icon-user:before {
-	content: "\e601";
+.icon-stack:before {
+	content: "\e603";
 }
 
 
@@ -1464,8 +1467,7 @@ body:not(.post-template) .post-title {
 }
 
 .post-footer.with-cover p, .post-footer.with-cover .author-meta {
-	margin: 1rem 120px 1rem 0;
-    width: 100%;
+	padding: 1rem 0 1rem 120px;
 }
 
 .post-footer.with-cover a {
@@ -2312,6 +2314,17 @@ body:not(.post-template) .post-title {
 
     .archive-template .main-header .page-description {
         display: none;
+    }
+    
+
+    .post-footer.with-cover .author {
+        padding: 0;
+        margin-right: 180px;
+        border-bottom: 0;
+    }
+    
+    .post-footer.with-cover p, .post-footer.with-cover .author-meta {
+	   padding: 0;
     }
 
 }

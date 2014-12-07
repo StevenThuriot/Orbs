@@ -9,7 +9,7 @@
 
         {{! Link Orbs}}
         <div class="blog-links">
-            <a class="icon-file" href="{{@blog.url}}/projects/" title="Projects"></a>
+            <a class="icon-stack" href="{{@blog.url}}/projects/" title="Projects"></a>
             <a class="icon-hub" href="{{@blog.url}}/github/" title="GitHub"></a>
             <a class="icon-user" href="{{@blog.url}}/cv/" title="Curriculum Vitae"></a>
             <a class="icon-feed" href="{{@blog.url}}{{#if tag}}/tag/{{tag.slug}}/{{else}}{{#if author}}{{#author}}{{url}}{{/author}}{{else}}/{{/if}}{{/if}}rss/" target="_blank" title="Subscribe{{#if tag}} to &quot;{{tag.name}}&quot;{{else}}{{#if author}}{{#author}} to {{name}}{{/author}}{{/if}}{{/if}}"></a>
