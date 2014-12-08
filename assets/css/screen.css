@@ -1451,6 +1451,7 @@ body:not(.post-template) .post-title {
 	background-size: cover;
     border-radius: 2px;
     color: #F8F8FF;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 .post-footer.with-cover .author {
