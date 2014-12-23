@@ -1,5 +1,5 @@
 {{! Navigational Sidebar}}
-<header id="orbs-bar" class="sidebar {{#is 'index, author, tag'}}wide" style="background-image: url({{#if author}}{{author.cover}}{{else}}{{@blog.cover}}{{/if}}){{else}}no-cover{{/is}}">
+<header id="orbs-bar" class="sidebar{{#is 'index, author, tag'}}{{#if tag.image}}{{else}} wide" style="background-image: url({{#if author}}{{author.cover}}{{else}}{{@blog.cover}}{{/if}}){{/if}}{{else}} no-cover{{/is}}">
 
     <nav id="site-head">
         {{! Logo Orb}}        
