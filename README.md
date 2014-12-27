@@ -1,6 +1,6 @@
 # ![Orbs](http://img.dafont.com/preview.php?text=Orbs&ttf=squared_display0&ext=1&size=64&psize=m&y=53)
 
-A hacked version of the default theme for [Ghost](http://github.com/tryghost/ghost/).
+A simple theme for [Ghost](http://github.com/tryghost/ghost/), built to run on my [website](http://steven.thuriot.be/).
 
 ##Features
 * Code highlighting via PRISMJS.
