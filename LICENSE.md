@@ -6,7 +6,7 @@ By exercising the Licensed Rights (defined below), You accept and agree to be bo
 
 1. **Adapted Material** means material subject to Copyright and Similar Rights that is derived from or based upon the Licensed Material and in which the Licensed Material is translated, altered, arranged, transformed, or otherwise modified in a manner requiring permission under the Copyright and Similar Rights held by the Licensor. For purposes of this Public License, where the Licensed Material is a musical work, performance, or sound recording, Adapted Material is always produced where the Licensed Material is synched in timed relation with a moving image.
 2. **Adapter's License** means the license You apply to Your Copyright and Similar Rights in Your contributions to Adapted Material in accordance with the terms and conditions of this Public License.
-3. **BY-NC-SA Compatible License** means a license listed at [ creativecommons.org/compatiblelicenses][4], approved by Creative Commons as essentially the equivalent of this Public License.
+3. **BY-NC-SA Compatible License** means a license listed at [creativecommons.org/compatiblelicenses][1], approved by Creative Commons as essentially the equivalent of this Public License.
 4. **Copyright and Similar Rights** means copyright and/or similar rights closely related to copyright including, without limitation, performance, broadcast, sound recording, and Sui Generis Database Rights, without regard to how the rights are labeled or categorized. For purposes of this Public License, the rights specified in Section 2(b)(1)-(2) are not Copyright and Similar Rights.
 5. **Effective Technological Measures** means those measures that, in the absence of proper authority, may not  be circumvented under laws fulfilling obligations under Article 11 of the WIPO Copyright Treaty adopted on December 20, 1996, and/or similar  international agreements.
 6. **Exceptions and Limitations** means fair use, fair dealing, and/or any other exception or limitation to Copyright and Similar Rights that applies to Your use of the Licensed Material.
@@ -105,20 +105,4 @@ For the avoidance of doubt, this Section 6(b) does not affect any right the Lice
 3. No term or condition of this Public License will be waived and no failure to comply consented to unless expressly agreed to by the Licensor.
 4. Nothing in this Public License constitutes or may be interpreted as a limitation upon, or waiver of, any privileges and immunities that apply to the Licensor or You, including from the legal processes of any jurisdiction or authority.
 
-Creative Commons is not a party to its public licenses. Notwithstanding, Creative Commons may elect to apply one of its public licenses to material it publishes and in those instances will be considered the "Licensor." The text of the Creative Commons public licenses is dedicated to the public domain under the [CC0 Public Domain Dedication][5]. Except for the limited purpose of indicating that material is shared under a Creative Commons public license or as otherwise permitted by the Creative Commons policies published at [creativecommons.org/policies][6], Creative Commons does not authorize the use of the trademark "Creative Commons" or any other trademark or logo of Creative Commons without its prior written consent including, without limitation, in connection with any unauthorized modifications to any of its public licenses or any other arrangements, understandings, or agreements concerning use of licensed material. For the avoidance of doubt, this paragraph does not form part of the public licenses.
-
-Creative Commons may be contacted at [creativecommons.org][7].
-
-Additional languages available: [Norsk][8], [suomeksi][9]. Please read the [FAQ][10] for more information about official translations.
-
-[1]: http://creativecommons.org/images/international/unported.png
-[2]: //wiki.creativecommons.org/Considerations_for_licensors_and_licensees#Considerations_for_licensors
-[3]: //wiki.creativecommons.org/Considerations_for_licensors_and_licensees#Considerations_for_licensees
-[4]: //creativecommons.org/compatiblelicenses
-[5]: creativecommons.org/zero/1.0/legalcode
-[6]: //creativecommons.org/policies
-[7]: //creativecommons.org/
-[8]: //creativecommons.org/licenses/by-nc-sa/4.0/legalcode.no
-[9]: //creativecommons.org/licenses/by-nc-sa/4.0/legalcode.fi
-[10]: //wiki.creative.commons.org/FAQ
-  
+[1]: http://creativecommons.org/compatiblelicenses
