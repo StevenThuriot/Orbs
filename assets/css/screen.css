@@ -558,6 +558,7 @@ body {
     -webkit-font-feature-settings: 'kern' 1;
     -moz-font-feature-settings: 'kern' 1;
     -o-font-feature-settings: 'kern' 1;
+    text-rendering: geometricPrecision;
 }
 
 ::-moz-selection {
@@ -577,6 +578,7 @@ h4, h5, h6 {
     line-height: 1.15em;
     margin: 0 0 0.4em 0;
     font-family: 'Lora', serif;
+    text-rendering: geometricPrecision;
 }
 
 h1 {
@@ -620,6 +622,7 @@ p, ul, ol, dl {
     -moz-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
     -o-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
     margin: 0 0 1.75em 0;
+    text-rendering: geometricPrecision;
 }
 
 ol, ul {
