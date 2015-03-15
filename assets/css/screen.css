@@ -521,7 +521,7 @@ th {
 .icon-curriculum-vitae:before {
 	content: "\e601";
 }
-.icon-github:before {
+.icon-git:before {
 	content: "\e602";
 }
 .icon-projects:before {
