@@ -518,13 +518,13 @@ th {
 .icon-file:before {
 	content: "\e600";
 }
-.icon-user:before {
+.icon-curriculum-vitae:before {
 	content: "\e601";
 }
-.icon-hub:before {
+.icon-github:before {
 	content: "\e602";
 }
-.icon-stack:before {
+.icon-projects:before {
 	content: "\e603";
 }
 
@@ -1501,6 +1501,13 @@ body:not(.post-template) .post-title {
 
 .blog-links a:hover {
     background: #15b8d6;
+}
+
+a.current-orb {
+    color: #00bfff;
+}
+a.current-orb:hover  {
+    color: #fff;
 }
 
 
