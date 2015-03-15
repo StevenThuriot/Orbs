@@ -3,9 +3,9 @@
 A simple theme for [Ghost](http://github.com/tryghost/ghost/), built to run on my [website](http://steven.thuriot.be/).
 
 ##Features
+* Configurable responsive navigational sidebar, which supports for the navigation system.
 * Code highlighting via PRISMJS.
 * Comments using Disqus.
-* Configurable responsive navigational sidebar.
 * Extra Icons
 
 
