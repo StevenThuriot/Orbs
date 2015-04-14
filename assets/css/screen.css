@@ -1844,9 +1844,6 @@ a.current-orb:hover  {
    7. Read More - Next/Prev Post Links
    ========================================================================== */
 
-.middle {
-
-}
 .read-next {
     display: -webkit-box;
     display: -webkit-flex;
@@ -1869,6 +1866,7 @@ a.current-orb:hover  {
     -webkit-flex-grow: 1;
     -ms-flex-positive: 1;
     flex-grow: 1;
+    min-width: 50%;
     text-decoration: none;
     position: relative;
     text-align: center;
