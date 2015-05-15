@@ -2376,7 +2376,7 @@ a.current-orb:hover  {
     .menu-button {
         padding: 0 5px;
         border-radius: 0;
-        border-color: transparent;
+        border-width: 0;
         color: #2e2e2e;
         background: transparent;
     }
