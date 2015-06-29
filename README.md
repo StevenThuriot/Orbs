@@ -8,5 +8,4 @@ A simple theme for [Ghost](http://github.com/tryghost/ghost/), built to run on m
 * Comments using Disqus.
 * Extra Icons
 
-
-_While open sourced, I would appreciate it if you don't just copy it and use it on your site as long as I'm running it on mine. Please find the courtesy to at least ask first._
+Please read and respect the [License](LICENSE.md)...
