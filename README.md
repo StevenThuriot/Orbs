@@ -7,5 +7,3 @@ A simple theme for [Ghost](http://github.com/tryghost/ghost/), built to run on m
 * Code highlighting via PRISMJS.
 * Comments using Disqus.
 * Extra Icons
-
-Please read and respect the [License](LICENSE.md)...
