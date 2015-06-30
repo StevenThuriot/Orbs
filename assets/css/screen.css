@@ -537,7 +537,9 @@ th {
 	content: "\e603";
 }
 
-
+.poweredby .fa-heart {
+  color: #EFB0B1;
+}
 
 
 
