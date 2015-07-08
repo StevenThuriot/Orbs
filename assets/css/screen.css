@@ -828,6 +828,7 @@ margin on the iframe, cause it breaks stuff. */
 }
 .clearfix:after { clear: both; }
 .clearfix { zoom: 1; }
+p.clearfix { height: 1px; }
 
 /* Hides shit */
 .hidden {
