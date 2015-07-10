@@ -2125,7 +2125,7 @@ a.current-orb:hover  {
 
 .poweredby {
     display: block;
-    width: 45%;
+    /*width: 45%;*/
     float: right;
     text-align: right;
 }
@@ -2135,6 +2135,7 @@ a.current-orb:hover  {
     /*width: 45%;*/
     /*float: left;*/
     float: right;
+    text-align: right;
 }
 
 
